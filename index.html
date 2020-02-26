@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/beetr.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background-block">
+    <div class="header">
+        <h2 class="header__title font-bold">Contact</h2>
+        <p class="header__p font-lite">For new projects, ideas, business or anything
+            you'd like to discuss, contact with me!</p>
+    </div>
+    <div class="content">
+        <div class="content__block-left">
+            <form action="#" method="get">
+                <div class="input-section">
+                        <input class="input-section__item" type="name" name="name" id="name" required placeholder="Your name..."
+                        minlength="4">
+                        
+                        <input class="input-section__item" type="email" name="email" id="email" required placeholder="Your email..."
+                        minlength="5">
+                        
+                        <input class="input-section__item" type="tel" name="phone" id="phone" required placeholder="Your phone number..."
+                         data-mask="(000) 000-00-00">
+                        
+                        <input class="input-section__item input-section--textarea" type="textarea" required name="message" id="message" 
+                          placeholder="Your message..." minlength="6" rows="10" cols="45">
+                        
+                        <input class="input-section__submit" type="submit" value="Submit" name="submit" id="submit">       
+                </div>
+            </form>
+        </div>
+
+
+        <div class="content__block-right">
+            <div class="contact-block">
+                <h3 class="contact-block__label font-bold">ADDRESS</h3>
+                <p class="contact-block__value font-lite">123 City name, Street, City, Country</p>
+                <h3 class="contact-block__label font-bold">EMAIL</h3>
+                <p class="contact-block__value font-lite">cahee@domain.com</p>
+                <h3 class="contact-block__label font-bold">PHONE</h3>
+                <p class="contact-block__value font-lite">+012 345 6789</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-block">
+    <div class="footer">
+        <p class="footer__left-label font-lite">© 2015 Company. All right reserved.</p>
+        <div class="footer__logo-wrap">
+            <img class="footer__logo" src="img/logo-small.png" alt="logo" >
+        </div>
+        <p class="footer__right-label font-lite">Made with <span class="font-bold marked-text">love</span> by Auskteez</p>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./plugins/jquery.mask.min.js"></script>
+</body>
+</html>
